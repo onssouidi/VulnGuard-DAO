@@ -2,23 +2,20 @@
 
 import "@openzeppelin/contracts/token/ERC20/Extensions/ERC20Votes.sol";
 
-pragma solidity ^0.8.7;
+pragma solidity ^0.8.18;
 
 contract GovernanceToken is ERC20Votes {
-    // events for the governance token
     event TokenTransfered(
         address indexed from,
         address indexed to,
         uint256 amount
     );
 
-    // Events
     event TokenMinted(address indexed to, uint256 amount);
     event TokenBurned(address indexed from, uint256 amount);
 
-    // max tokens per user
     uint256 constant TOKENS_PER_USER = 1000;
-    uint256 constant TOTAL_SUPPLY = 1000000 * 10**18;
+    uint256 constant TOTAL_SUPPLY = 1000000 * 10**18; //To change later
 
     // Mappings
     mapping(address => bool) public s_claimedTokens;
@@ -27,8 +24,8 @@ contract GovernanceToken is ERC20Votes {
     address[] public s_holders;
 
     constructor(uint256 _keepPercentage)
-        ERC20("MoralisToken", "MRST")
-        ERC20Permit("MoralisToken")
+        ERC20("VULN", "VULN")
+        ERC20Permit("VulnToken")
     {
         uint256 keepAmount = (TOTAL_SUPPLY * _keepPercentage) / 100;
         _mint(msg.sender, TOTAL_SUPPLY);
