@@ -1,0 +1,58 @@
+.navbar {
+  background-color: #0a0f14; 
+  color: #00ff99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-family: 'Fira Code', monospace;
+  border-bottom: 1px solid #1f2933;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #00ff99;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #00ff99;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar-links a:hover {
+  color: #ffffff;
+}
+
+.btn-wallet {
+  background-color: #00ff99;
+  color: #0a0f14;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-wallet:hover {
+  background-color: #00cc77;
+  transform: scale(1.05);
+}
