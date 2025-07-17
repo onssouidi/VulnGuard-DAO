@@ -1,6 +1,7 @@
 {
   "name": "vulndao",
   "version": "0.1.0",
+  "homepage": "https://onssouidi.github.io/VulnGuard-DAO",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^3.22.0",
