@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/VulnGuard-DAO/static/css/main.783c6fb2.css",
+    "main.js": "/VulnGuard-DAO/static/js/main.899af9d5.js",
+    "static/js/453.275d66af.chunk.js": "/VulnGuard-DAO/static/js/453.275d66af.chunk.js",
+    "index.html": "/VulnGuard-DAO/index.html",
+    "main.783c6fb2.css.map": "/VulnGuard-DAO/static/css/main.783c6fb2.css.map",
+    "main.899af9d5.js.map": "/VulnGuard-DAO/static/js/main.899af9d5.js.map",
+    "453.275d66af.chunk.js.map": "/VulnGuard-DAO/static/js/453.275d66af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.783c6fb2.css",
+    "static/js/main.899af9d5.js"
+  ]
+}
